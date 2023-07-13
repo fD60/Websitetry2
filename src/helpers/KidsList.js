@@ -1,4 +1,4 @@
-import item1 from "../assets/kids1.PNG"
+import item1 from "../assets/Kids1.PNG"
 import item2 from "../assets/Kids2.PNG"
 import item3 from "../assets/Kids3.PNG"
 
