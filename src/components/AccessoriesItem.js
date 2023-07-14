@@ -5,7 +5,7 @@ function AccessoriesItem({ image, name, price }) {
     <div className="accessoriesItem">
       <div style={{ backgroundImage: `url(${image})` }}> </div>
       <h1> {name} </h1>
-      <p> ${price} </p>
+      <p> £{price} </p>
     </div>
   );
 }

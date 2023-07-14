@@ -1,16 +1,16 @@
 import React from "react";
 import { AccessoriesList } from "../helpers/AccessoriesList";
-import accessoriesItem from "../components/AccessoriesItem";
-import "../styles/Kids.css";
+import AccessoriesItem from "../components/AccessoriesItem";
+import "../styles/Accessories.css";
 
 function Accessories() {
   return (
     <div className="accessories">
       <h1 className="accessoriesTitle">Jewllery</h1>
       <div className="accessoriesList">
-        {AccessoriesList.map((accessoriesitem, key) => {
+        {AccessoriesList.map((accessoriesItem, key) => {
           return (
-            <accessoriesItem
+            <AccessoriesItem
               key={key}
               image={accessoriesItem.image}
               name={accessoriesItem.name}

@@ -1,4 +1,4 @@
-import T1 from "../assets/WItem 1.png"
+import T1 from "../assets/WItem1.PNG"
 import T2 from "../assets/WItem2.PNG"
 import T3 from "../assets/WItem3.PNG"
 
